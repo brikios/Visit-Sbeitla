@@ -1,0 +1,226 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif ;
+    direction: ltr;
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    background: #111;
+}
+.btn 
+{
+    position: absolute;
+    top: 100%;
+    left: 43%;
+    margin-top: 50px;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+
+}
+.btn:hover
+{
+    
+
+    color: #111;
+    background-color: #fff;
+    transition: 0.6s ease;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.banner::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top,#111,transparent);
+}
+.banner .content
+{
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner .content h2
+{
+    color: #fff;
+    font-size: 5em;
+}
+
+.banner .content p
+{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.kaws
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.about
+{
+    position: relative;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .contentbx
+{
+    min-width: 50%;
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
+}
+.titletext
+{
+    font-weight: 600;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.text 
+{
+    color: #fff;
+    font-size: 1em;
+    
+}
+
+.about .imgbox .kaws
+{
+   
+    position: relative;
+    min-width: 75%;
+    width: 50%;
+    min-height: 500px;
+    border-radius: 15px 50px;
+    float: right;
+    margin-right: 50px;
+    
+}
+.banner2
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.banner2::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top,#111,transparent);
+}
+.banner2::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to bottom,#111,transparent);
+
+}
+
+.s1
+{
+    color: #fff;
+    font-size: 1em;
+    
+    margin-left: 5px;
+}
+.s2
+{
+    color: #fff;
+    font-size: 1em;
+    
+    margin-left: 5px;
+}
+
+.dest .sights 
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.dest .sights .box 
+{
+    position: relative;
+    min-width: 350px;
+    height: 480px;
+    background: #191919;
+    transition: 0.5s;
+    margin: 10px;
+}
+.dest .sights:hover .box 
+{
+    opacity: 0.2;
+}
+.dest .sights .box:hover
+{
+    opacity: 1;
+}
+.dest .sights .box .imgbox
+{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.dest .sights .box .content
+{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dest .sights .box .content h2 
+{
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2em;
+}

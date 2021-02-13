@@ -1,0 +1,64 @@
+*{
+    margin: 0  ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color :white;
+    
+    
+}
+
+body{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(mos.jpg) no-repeat left ;
+    
+    background-size: cover;
+}
+.General{
+    
+    
+ 
+    padding: 100px 0;
+    
+}
+.section{
+    width: 55%;
+    float: right;
+    background-color: #000;
+    padding: 70px;
+    margin-right: 5px;
+    border-radius: 15px 50px;
+    opacity: 0.7;
+}
+.h1{
+    
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.section text{
+    font-size: 13px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    
+   
+}
+
+.section a
+{
+    position: center;
+    border: 0px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #fff;
+    
+    transition: 0.6s ease;
+}
+
+.section a:hover
+{
+    background-color: #fff;
+    color: #000;
+}
